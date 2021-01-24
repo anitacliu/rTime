@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap'); 
+
+body {
+  background-color: #DCE7F1;
+  margin: 0;
+}
+
+.header {
+  background-color: #94A89A;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-color: #94A89A;
+  /* border-radius: 4px; */
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 80%;
+  object-fit: cover;
+  flex-wrap: wrap;
+  margin-left: -5px;
+}
+
+.rTimeTitle {
+  block: inline;
+  display: inline;
+  font-family: 'Darker Grotesque';
+  font-size: 50px;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+
+.titleBlock {
+  text-align: center;
+  display: block;
+  /* padding-top: 10px; */
+  font-family: 'Darker Grotesque';
+  font-size: 70px;
+  margin-top: 0em;
+}
+
+.nav-links {
+  background-color: #EBD7C1;
+  font-family: 'Sora', sans-serif;
+  border: 1px solid #EBD7C1;
+  border-radius: 10px;
+  font-size: 140%;
+  color: black;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.nav-links:hover {
+  background-color: #EFD3A9;
+  border-color: #EFD3A9;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: #94A89A;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: black;
+  padding-right: 40px;
+}
+
+.belowHeader {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Sora';
+}
+
+.photoGallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+.image1 {
+  width: 420px;
+  height: 290px;
+  border: 4px solid #C1A285;
+  border-radius: 5px;  
+  /* justify-content: space-evenly; */
+}
+
+.image2 {
+  width: 420px;
+  height: 290px;
+  border: 4px solid #C1A285;
+  border-radius: 5px;
+}
+
+.descriptionContent {
+  margin: 30px 20px 17px;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+.resourcesTitle {
+  text-align: center;
+  font-family: 'Sora';
+  font-size: 200%;
+  margin-top: none;
+}
+
+.resourcesLinks {
+  color: #94A89A;
+  text-decoration: underline;
+}
+
+.resources {
+  font-family: 'Sora';
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top: 3px solid #C1A285;
+  text-align: center;
+}
+
+.emptyAdvice {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.mentalExerciseButton {
+  background-color: #F7C7DB;
+  font-size: 120%;
+  font-family: 'Darker Grotesque';
+  border: 2px solid #F7C7DB;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mentalExerciseButton:hover {
+  background-color: #F094BA;
+  border: 2px solid #F094BA;
+}
+
+.footer {
+  background-color: #94A89A;
+  padding: 40px;
+  font-family: 'Sora';
+  list-style-type: none;
+}
+
+.artLink{
+  color: black;
+}
